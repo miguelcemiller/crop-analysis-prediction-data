@@ -1,0 +1,28 @@
+[
+  {
+    "disease": "Philippine Corn Downy Mildew",
+    "scientific-name": "Peronosclerospora philippinensis",
+    "descriptions": [
+      "Usually present in flooded fields",
+      "The seedlings of the crop are more vulnerable to downy mildew",
+      "The infection can be passed through air can develop fully with humidity"
+    ],
+    "damages": [
+      "There are yellow or white streaks coming from the base of the leaf up to the blades.",
+      "Lack of greeness of the leaves or chlorosis",
+      "At seedling stage, the crop can be distorted or stunted."
+    ],
+    "controls": [
+      {
+        "method": "",
+        "process": [
+          "Proper water management",
+          "Apply right amount of nitrogen because high level of nitrogen increases the chance of having downy mildew",
+          "Treating of seeds with fungicide",
+          "Use varieties resistant to downy mildew"
+        ]
+      }
+    ],
+    "illustration": "https://plantvillage-production-new.s3.amazonaws.com/image/62230/file/default-da2f512d284e60d5fc777a8f15cb2f88.jpg"
+  }
+]

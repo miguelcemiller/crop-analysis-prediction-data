@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Analysis Prediction Data</title>
+    <style>
+        table, td, th {
+            border: 1px solid black;
+        }
+        table {
+            border-collapse: collapse;
+            width: 200px;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        i {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Crop Analysis Prediction Data</h2>
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>Number</th>
+        </tr>
+        <tr>
+            <td>Pests</td>
+            <td class="pests-js">0</td>
+        </tr>
+        <tr>
+            <td>Diseases</td>
+            <td class="diseases-js">0</td>
+        </tr>
+        <tr>
+            <td>Nutrients</td>
+            <td class="nutrients-js">0</td>
+        </tr>
+      </table>
+
+      <i>*Check Console to view data*</i>
+
+    <script>
+        fetch('/data/pests.json')
+        .then(response => response.json())
+        .then(json => {
+            console.log("Pests:", json)
+            document.getElementsByClassName("pests-js")[0].innerHTML = json.length;
+        })
+
+        fetch('/data/diseases.json')
+        .then(response => response.json())
+        .then(json => {
+            console.log("Diseases:", json)
+            document.getElementsByClassName("diseases-js")[0].innerHTML = json.length;
+        })
+
+        fetch('/data/nutrients.json')
+        .then(response => response.json())
+        .then(json => {
+            console.log("Nutrients:", json)
+            document.getElementsByClassName("nutrients-js")[0].innerHTML = json.length;
+        })
+    </script>
+</body>
+</html>
+

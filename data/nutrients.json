@@ -1,0 +1,20 @@
+[
+  {
+    "nutrient": "Nitrogen",
+    "causes": [
+      "The soil is cold, saturated, dry or sandy",
+      "Large amounts of low-nitrogen residue",
+      "The nutrient leaches from heavy rainfall"
+    ],
+    "functions": [
+      "Can be found in plants' chlorophyll, nucleic acid and amino acids.",
+      "A component of plant protein and enzymes"
+    ],
+    "symptoms": [
+      "Growth is retarded",
+      "Chlorosis of whole plant",
+      "Older leaves affected first"
+    ],
+    "illustration": "http://www.powerag.com/wp-content/uploads/2018/08/corn-def-nitrogen-2.png"
+  }
+]
