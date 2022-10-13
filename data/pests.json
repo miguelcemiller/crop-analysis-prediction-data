@@ -1,12 +1,12 @@
 [
   {
     "pest": "Asiatic Corn Borer",
-    "scientific-name": "Ostrinia furnacalis Guenee",
+    "scientificName": "Ostrinia furnacalis Guenee",
     "descriptions": [
       "Ang ulo nito ay kulay itim o kayumanggi.",
       "May malarosas na katawan at may spots na maitim na may pagkabilog."
     ],
-    "life-cycle": {
+    "lifeCycle": {
       "Itlog": "3-4 araw",
       "Uod": "17.5 araw",
       "Kukon": "7-9 araw",
@@ -60,12 +60,12 @@
   },
   {
     "pest": "Black Armyworm",
-    "scientific-name": "Spodoptera exempta",
+    "scientificName": "Spodoptera exempta",
     "descriptions": [
       "Ang likod nito ay may kulay na light yellow sa gitna at may dilaw naman sa gilid ng katawan.",
       "Ang malalaking uod ay madalas na kulay itim."
     ],
-    "life-cycle": {
+    "lifeCycle": {
       "Itlog": "2-3 araw",
       "Uod": "17 araw (babae); 13 araw (lalaki)",
       "Kukon": "20-30 araw",
@@ -103,12 +103,12 @@
 
   {
     "pest": "Common Cutworm",
-    "scientific-name": "Spodoptera litura Fab.",
+    "scientificName": "Spodoptera litura Fab.",
     "descriptions": [
       "Ang malilit at batang uod ay may pagkaberde na may itim at may sukat na ⅓ simula sa ulo nito.",
       "Ang malalaking uod naman ay kulay dark green na may natitingkad na stripes"
     ],
-    "life-cycle": {
+    "lifeCycle": {
       "Itlog": "3 araw",
       "Uod": "20 araw",
       "Kukon": "8-11 araw",
@@ -151,12 +151,12 @@
 
   {
     "pest": "Corn Aphids",
-    "scientific-name": "Rhopalosiphum maidis",
+    "scientificName": "Rhopalosiphum maidis",
     "descriptions": [
       "Ang mga bata o nimpa at mga magulang na peste ay malilit na hugis peras. Ang mga ito ay kulay berde.",
       "Ang magulang na peste ay may pakpak. Ito ay may habang 1.3 mm at lapad na 0.5 mm. Nakakapagparami ito sa loob ng 11 na araw kahit walang magulang na lalaki."
     ],
-    "life-cycle": {
+    "lifeCycle": {
       "Itlog": "",
       "Nimpa": "9 araw",
       "Magulang": "4-12 araw"
