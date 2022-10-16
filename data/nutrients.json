@@ -1,20 +1,31 @@
 [
   {
-    "nutrient": "Nitrogen",
-    "causes": [
-      "The soil is cold, saturated, dry or sandy",
-      "Large amounts of low-nitrogen residue",
-      "The nutrient leaches from heavy rainfall"
+    "leafColor": "#2",
+    "nitrogen": [
+      "Maglagay ng maraming Nitrogen fertilizer.",
+      "Kaagad maglagay ng fertilizer."
     ],
-    "functions": [
-      "Can be found in plants' chlorophyll, nucleic acid and amino acids.",
-      "A component of plant protein and enzymes"
+    "image": "/images/nutrients/2.jpg"
+  },
+
+  {
+    "leafColor": "#3",
+    "nitrogen": [
+      "Maglagay ng katamtamang dami ng Nitrogen fertilizer.",
+      "Maglagay ng fertilizer sa lalong madaling panahon."
     ],
-    "symptoms": [
-      "Growth is retarded",
-      "Chlorosis of whole plant",
-      "Older leaves affected first"
-    ],
-    "illustration": "http://www.powerag.com/wp-content/uploads/2018/08/corn-def-nitrogen-2.png"
+    "image": "/images/nutrients/3.jpg"
+  },
+
+  {
+    "leafColor": "#4",
+    "nitrogen": ["Maglagay ng kaunting dami ng Nitrogen fertilizer."],
+    "image": "/images/nutrients/4.jpg"
+  },
+
+  {
+    "leafColor": "#5",
+    "nitrogen": ["Hindi na kailangang maglagay ng Nitrogen fertilizer."],
+    "image": "/images/nutrients/5.jpg"
   }
 ]
